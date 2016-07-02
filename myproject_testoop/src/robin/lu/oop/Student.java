@@ -8,6 +8,8 @@ public class Student {
 	String gender;
 	int weight;
 	
+	Computer computer;
+	
 	//动态行为
 	public void study(){
 		System.out.println(name+"在学习！");
