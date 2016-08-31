@@ -1,40 +1,60 @@
 package robin.lu.array.teststring;
 
 /**
- * 1.练习String类的常用方法
- * 2.结合数组查看源码
- * 3.提高：查看String类中的其他源码
+ * 1.练习String类的常用方法 2.结合数组查看源码 3.提高：查看String类中的其他源码
+ * 
  * @author luyp
  *
  */
 public class TestString {
 	public static void main(String[] args) {
-		String str="abcd";
+		String str = "abcd";
 		System.out.println(str.charAt(2));
-		String str2=new String("abcd");
-		System.out.println(str.equals(str2)); //比较内容是否相等 
-		System.out.println(str==str2);
-		
-		String str3="def";
-		String str4="def";
+		String str2 = new String("abcd");
+		System.out.println(str.equals(str2)); // 比较内容是否相等
+		System.out.println(str == str2);
+
+		String str3 = "def";
+		String str4 = "def";
 		System.out.println(str3.equals(str4));
-		System.out.println(str3==str4);
-		
+		System.out.println(str3 == str4);
+
 		System.out.println(str3.indexOf('e'));
-		String s=str3.substring(1);
+		String s = str3.substring(1);
 		System.out.println(s);
-		
+
 		System.out.println(str3.replace('e', '*'));
-		
-		String str6="abcde,rrtt,cccee";
-		String[] strArray=str6.split(",");
-		for(int i=0;i<strArray.length;i++){
+
+		String str6 = "abcde,rrtt,cccee";
+		String[] strArray = str6.split(",");
+		for (int i = 0; i < strArray.length; i++) {
 			System.out.println(strArray[i]);
 		}
-		
-		String str7="  aa bb  ";
-		String str77=str7.trim();
+
+		String str7 = "  aa bb  ";
+		String str77 = str7.trim();
 		System.out.println(str77.length());
+
+		System.out.println("Abc".equalsIgnoreCase("abc"));
+
+		System.out.println("abcbd".indexOf('b'));
+		System.out.println("abcbd".lastIndexOf('b'));
+
+		System.out.println("abcdef".startsWith("ab"));
+		System.out.println("abcdef".endsWith("ef"));
+
+		System.out.println("abcdef".toUpperCase());
+		System.out.println("abcd已ef".toUpperCase());
+		System.out.println("ABcdef".toLowerCase());
+
+		System.out.println("###########################");
+		String gh = "a";
+
+		for (int i = 0; i < 10; i++) {
+			gh += i;
+		}
+		
+		System.out.println(gh);
 	}
-	
+
 }
