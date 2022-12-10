@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97173e73-03d0-4d3f-a9e9-b0946588f7f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter_4-5/Chapter_4-5.iml" afterDir="false" />
+    <list default="true" id="97173e73-03d0-4d3f-a9e9-b0946588f7f0" name="Changes" comment="add Chapter 4&amp;5 files">
+      <change afterPath="$PROJECT_DIR$/Chapter_10/Chapter_10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_11/Chapter_11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_14/Chapter_14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_15/Chapter_15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_6/Chapter_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_7/Chapter_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_8/Chapter_8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_9/Chapter_9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -16,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IjlUJzQzDajfBnRPXcqddHY0uI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,10 +38,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "Zulu1.8"
+    "jdk.selected.JAVA_MODULE": "Zulu1.8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestDataType">
+    <configuration name="TestDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDataType" />
+      <module name="Chapter_7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Welcome (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Welcome" />
+      <module name="Chapter_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Welcome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Welcome" />
       <module name="Chapter_4-5" />
@@ -41,6 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDataType" />
+        <item itemvalue="Application.Welcome (1)" />
         <item itemvalue="Application.Welcome" />
       </list>
     </recent_temporary>
@@ -54,6 +83,18 @@
       <option name="presentableId" value="Default" />
       <updated>1670702896556</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Chapter 4&amp;5 files">
+      <created>1670703830873</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670703830873</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Chapter 4&amp;5 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Chapter 4&amp;5 files" />
   </component>
 </project>
